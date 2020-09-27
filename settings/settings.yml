@@ -1,0 +1,30 @@
+# Interactive Brokers Settings
+ib_server: localhost
+ib_port: 7496
+
+# MongoDB Server Information
+mongo_server: localhost
+mongo_port: 27017
+mongo_username: user
+mongo_password: pass
+
+mongo_db_universe: 'TradingModels'
+
+# RT Sockets Server
+rt_server: localhost
+rt_port: 4010
+
+# Signal Sockets Server - Event-driven
+signal_server: localhost
+signal_port: 4020
+
+# Quandl API Key
+quantdl_key: XYZ
+
+# Alpha API Key
+alpha_key: XYZ
+
+ds_location: ./DS
+ta_location: ./models
+universe_location: ./universe
+dailies_location: ./dailies
